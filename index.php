@@ -6,7 +6,7 @@
   <body>
     <?php
       // Connect to the database
-      $host = 'atabase-2.cx248m4we6k7.us-east-1.rds.amazonaws.com';
+      $host = 'database-2.cx248m4we6k7.us-east-1.rds.amazonaws.com';
       $user = 'admin';
       $password = '123456Yoram';
       $dbname = 'breached';
