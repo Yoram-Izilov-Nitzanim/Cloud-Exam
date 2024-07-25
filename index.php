@@ -13,7 +13,6 @@ $dbname = 'breached';
 // Connect to the database
 $conn = mysqli_connect($host, $user, $password, $dbname);
 if (!$conn) {
-    echo "<h1>Connection Error</h1>";
     die("Connection failed: " . mysqli_connect_error());
 }
 
