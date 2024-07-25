@@ -13,7 +13,9 @@
       $conn = mysqli_connect($host, $user, $password, $dbname);
       // Check connection
       if (!$conn) {
+                echo "<h1>Breached failed :<</h1>";
         die("Connection failed: " . mysqli_connect_error());
+
       }
       // Select all rows from the breached table
       $sql = "SELECT id, email, pass, date_add FROM breached";
