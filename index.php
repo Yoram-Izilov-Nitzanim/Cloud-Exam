@@ -6,14 +6,14 @@
   <body>
     <?php
       // Connect to the database
-      $host = 'your-rds-endpoint';
-      $user = 'your-username';
-      $password = 'your-password';
-      $dbname = 'your-database-name';
+      $host = 'atabase-2.cx248m4we6k7.us-east-1.rds.amazonaws.com';
+      $user = 'admin';
+      $password = '123456Yoram';
+      $dbname = 'breached';
       $conn = mysqli_connect($host, $user, $password, $dbname);
       // Check connection
       if (!$conn) {
-      die("Connection failed: " . mysqli_connect_error());
+        die("Connection failed: " . mysqli_connect_error());
       }
       // Select all rows from the breached table
       $sql = "SELECT id, email, pass, date_add FROM breached";
