@@ -18,7 +18,7 @@
 
       }
       // Select all rows from the breached table
-      $sql = "SELECT id, email, pass, add_date FROM breached_data";
+      $sql = "SELECT id, email, pass, add_date FROM breached_data;";
       $result = mysqli_query($conn, $sql);
       echo "<h1>Breached</h1>";
       echo "<table>";
